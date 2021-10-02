@@ -24,12 +24,6 @@ class ItemControllerTest {
     @MockBean
     private ItemService itemService;
 
-    //Added ItemRepo to main method (CommandLineRunner)
-    //to load some dummy data for test env. Therefore
-    //need to add a Mock Bean of it..
-    @MockBean
-    private ItemRepository itemRepository;
-
     @Autowired
     MockMvc mockMvc;
 

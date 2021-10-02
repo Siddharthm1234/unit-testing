@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "item")
 public class Item {
 
     @Id
